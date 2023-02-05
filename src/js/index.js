@@ -19,6 +19,7 @@ const TrafficLight = () => {
                     <button className="redLight" onClick={() => (colorSelector({visibility: "visible", marginTop: 13}))}></button>
                     <button className="yellowLight" onClick={()=> (colorSelector({visibility: "visible", marginTop: 142}))}></button>
                     <button className="greenLight" onClick={() => (colorSelector({visibility: "visible", marginTop: 271}))}></button>
+                    <button className="stopCycle" onClick={() => (colorSelector({visibility: "hidden"}))}>Turn off</button>
                 </div>
             </div>
         </div>

@@ -19,11 +19,10 @@
     z-index: 1;
 }
 
-.redLight {
+.redLight, .yellowLight, .greenLight {
     position: relative;
     width: 100px;
     height: 100px;
-    background-color: red;
     border-radius: 100%;
     margin-left: 50px;
     margin-top: 25px;
@@ -31,37 +30,15 @@
     z-index: 2;
 }
 
-.yellowLight {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-    border-radius: 100%;
-    margin-left: 50px;
-    margin-top: 25px;
-    border: none;
-    z-index: 2;
-}
+.redLight {background-color: red;}
 
-.greenLight {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    border-radius: 100%;
-    margin-left: 50px;
-    margin-top: 25px;
-    border: none;
-    z-index: 2;
-}
+.yellowLight {background-color: yellow;}
 
-.selID {
-    margin-left: auto;
-    margin-right: auto;
+.greenLight {background-color: green;}
+
+.stopCycle {
+    font-size: 24pt;
+    margin-left: 40px;
     margin-top: 50px;
-}
-
-.borderGlow {
-    background: yellow;
-    background: linear-gradient(90deg, yellow 0%, yellow, black 19%);
+    border-radius: 15px;
 }
