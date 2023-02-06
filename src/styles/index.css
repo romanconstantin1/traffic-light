@@ -1,6 +1,5 @@
 .lightBkgrnd {
     width: 200px;
-    height: 425px;
     background-color: black;
     border-radius: 25px;
     margin-left: auto;
@@ -15,7 +14,6 @@
     width: 125px;
     height: 125px;
     border-radius: 100%;
-    background-image: radial-gradient(yellow, yellow, black);
     z-index: 1;
 }
 
@@ -36,9 +34,16 @@
 
 .greenLight {background-color: green;}
 
-.stopCycle {
-    font-size: 24pt;
-    margin-left: 40px;
+.loopLights {
+    font-size: 18pt;
+    margin-left: 66px;
     margin-top: 50px;
+    border-radius: 15px;
+}
+
+.stopCycle {
+    font-size: 18pt;
+    margin-left: 50px;
+    margin-top: 10px;
     border-radius: 15px;
 }
