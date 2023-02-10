@@ -44,10 +44,11 @@ const TrafficLight = () => {
                         {colorSelector(1), count=1, clearInterval(looper)}}></button>
                     <button className="greenLight" onClick={() => 
                         {colorSelector(2), count=2, clearInterval(looper)}}></button>
-                </div>
-                <div className="bottuns">
                     <button className="loopLights" onClick={() => {colorSelector([count]), colorLooper()}}>Loop</button>
                     <button className="stopCycle" onClick={() => (colorSelector({visibility: "hidden", isNull: true}))}>Turn off</button>
+                </div>
+                <div className="bottuns">
+                    
                 </div>
             </div>
         </div>
